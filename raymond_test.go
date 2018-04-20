@@ -90,7 +90,7 @@ func ExampleRender() {
 	}
 
 	// render template with context
-	output, err := Render(tpl, ctx)
+	output, err := Render(tpl, ctx, nil)
 	if err != nil {
 		panic(err)
 	}
